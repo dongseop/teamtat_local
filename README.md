@@ -14,11 +14,15 @@ You can run TeamTat(https://teamtat.org) server on your local machine.
   ```
   cd teamtat_local
   ```
-4. run the server by using `docker-compose up`
+5. run the server by using `docker-compose up`
   ```
   docker-compose up
   ```
-
+6. If you have errors while starting the 'web' container, please stop all containers using 'Ctrl+C' and retry it.
+  ```
+  docker-compose up
+  ```  
+  For the first time starting the server, the 'web' container may fail to start because of the dependency to the 'db' container. Then, you should stop all containers and start it again. Sorry.
 
 You can access the server from http://localhost:3000
 
