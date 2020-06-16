@@ -10,7 +10,15 @@ You can run TeamTat(https://teamtat.org) server on your local machine.
   ```
   git clone git@github.com:dongseop/teamtat_local.git
   ```
-4. docker up
+4. change directory into teamtat_local
+  ```
+  cd teamtat_local
+  ```
+4. run the server by using `docker-compose up`
+  ```
+  docker-compose up
+  ```
+
 
 You can access the server from http://localhost:3000
 
